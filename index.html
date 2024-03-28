@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miaw | Rock Paper Scissor</title>
+
+    <!-- 
+        Raqhin Kusmanadinata
+        2200679
+        4C 
+    -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/icon type">
+</head>
+
+<body>
+    <!-- For Mobile  -->
+    <div class="mobile">
+        <h2 id="mobile-cat">Open At Desktop Please ^_^ </h2>
+        <div class="img"></div>
+    </div>
+
+    <!-- Some Add On -->
+    <section class="other">
+        <audio controls loop preload="none" id="myAudio">
+            <source src="audio/bgm.mp3" type="audio/mpeg" />
+        </audio>
+
+        <div class="mycat">
+            <p id="mycatText">Miaw, It looks like I have someone to play with ^~^ </p>
+            <div class="img" id="mycat-img"></div>
+        </div>
+
+        <div class="audio-display">
+            <div class="img" id="audio-img"></div>
+            <div class="audio-text">
+                <h3>SpyxFamily ED lofi || <br>Gen Hoshino "Comedy" Lofi</h3>
+                <p>Press "P" To Play With Music</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Main Game -->
+    <section class="game">
+        <div class="game-top">
+            <div class="title-div">
+                <div class="title">Rock Paper Scissor</div>
+            </div>
+
+            <!-- Score Management -->
+            <div class="score-div">
+                <div class="score">
+                    <div class="playerScore">
+                        <h2>Player</h2>
+                        <p class="p-count count">0</p>
+                        <div class="player-image">
+                            <img src="option/Nothing.png" alt="">
+                        </div>
+                    </div>
+                    <div class="separator-image">
+                        <h2>VS</h2>
+                    </div>
+                    <div class="computerScore">
+                        <h2>Miaw (COM)</h2>
+                        <p class="c-count count">0</p>
+                        <div class="com-image">
+                            <img src="option/Nothing.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Control -->
+            <div class="option-div">
+                <div class="move">Choose Your Weapon</div>
+
+                <div class="movesleft">Round : Start The Game </div>
+
+                <div class="options">
+                    <button class="rock">rock</button>
+                    <button class="paper">paper</button>
+                    <button class="scissor">scissor</button>
+                </div>
+
+                <div class="result">Play The Game</div>
+
+                <div class="reload-div">
+                    <button class="reload">
+                        <p class="reload-text"></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer :) -->
+        <p>Made By Raqhin Kusmanadinata</p>
+        <script src="script.js"></script>
+    </section>
+</body>
+
+</html>
